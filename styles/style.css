@@ -1,0 +1,8 @@
+.goit2 {
+    color: purple;
+}
+
+.goit2:hover {
+    background-color: black;
+    color: white;
+}
