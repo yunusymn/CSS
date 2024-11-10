@@ -1,8 +1,61 @@
-.goit2 {
+/* .goit2 {
     color: purple;
 }
 
 .goit2:hover {
-    background-color: black;
-    color: white;
+    background-color: black; 
+    color: rgb(154, 243, 188);
+}
+ p {
+    color: green;
+ }
+ section > p {
+    color: orange !important;
+
+ }
+ .goit-css {
+    text-decoration: underline;
+    text-transform: lowercase;
+    background-color: aqua;
+   line-height: 13px;
+   font-size: 12;
+   text-indent: 1opx;
+
+ }
+ .kutucuk {
+    text-align:center;
+ } */
+/* .box{
+ width: 300px;
+ border: 2px solid red; */
+ /* padding: 100px; */
+ /* padding-left: 40px;
+ padding-right:40px;
+
+margin-top: 50px;
+margin-left: 40px;
+margin-bottom: 60px;
+} */
+
+.div1{
+   width: 200px;
+   padding: 20px;
+   border: 5px solid blue;
+   box-sizing: content-box;
+   background-color: lightblue;
+
+}
+.div2{
+   width: 200px;
+   padding: 20px;
+   border: 5px solid blue;
+   box-sizing: border-box;
+   background-color: lightblue;
+
+}
+.div1::after{
+   content:"after özelliği";
+}
+.div1::before{
+   content: "before özelliği";
 }
