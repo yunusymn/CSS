@@ -37,7 +37,7 @@ margin-left: 40px;
 margin-bottom: 60px;
 } */
 
-.div1{
+/* .div1{
    width: 200px;
    padding: 20px;
    border: 5px solid blue;
@@ -58,4 +58,37 @@ margin-bottom: 60px;
 }
 .div1::before{
    content: "before özelliği";
-}
+} */
+ .test h1{
+   background-color: black;
+   color: white;
+ }
+ .test h1:hover{
+   background-color: blue;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ div #arac li{
+   font-size: 25px;
+ }
+ .goit2 {
+   color: purple;
+
+ }
+ .goit2:hover{
+   background-color: black;
+   color: white;
+ }
+ .social-links .link {
+   color: teal;
+ }
+ 
+ .social-links .link:hover {
+   color: orange;
+ }
+ .social-links .link:active {
+color:red;
+ }
+ .social-links .link:focus {
+   color:blue;
+    }
