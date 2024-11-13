@@ -59,7 +59,7 @@ margin-bottom: 60px;
 .div1::before{
    content: "before özelliği";
 } */
- .test h1{
+ /* .test h1{
    background-color: black;
    color: white;
  }
@@ -92,3 +92,67 @@ color:red;
  .social-links .link:focus {
    color:blue;
     }
+    .kutu{
+      background-color: aqua;
+      width: 50% ;
+      height: 200px;
+      border: 2px solid black;
+      font-family:"Sour Gummy" ;
+      font-size: 15px;
+      
+    }
+    .kutu p {
+     font-weight: 700;
+    } */
+     .box{
+      width: 400;
+      border: 2px solid red;
+      padding: 30px;
+      margin-top: 10px;
+      margin-left: 40px;
+      margin-bottom: 40px;
+    
+      }
+      .div1{
+        width: 200px;
+        padding: 20px;
+        border: 5px solid blue;
+        box-sizing: content-box;
+        background-color: lightblue;
+        border-radius: 50%;
+        overflow: scroll;
+      }
+      .div2{
+        width: 200px;
+        padding: 20px;
+        border: 5px solid blue;
+        box-sizing: border-box;
+        background-color: lightblue;
+        border-radius: 50%;
+        overflow: scroll;
+      }
+      .div1::after{
+        content: "after özelliği";
+        background-color: blueviolet;
+      }
+      /* .div2::before{
+        content: "before özelliği";
+        background-color: red;
+      } */
+      .frame {
+        margin-top: 30px;
+        /* border: 2px solid black; */
+        width: 200px;
+        height: 200px;
+        /* display: flex;
+        text-align: center;
+        justify-content: center; */
+
+        border-top: 2px solid black;
+        border-left: 2px dashed red;
+        border-right: 2px dotted blue;
+        border-bottom: 2px solid purple;
+
+      }
+
+      
